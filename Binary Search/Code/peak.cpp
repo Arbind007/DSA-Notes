@@ -25,7 +25,7 @@ int peak(vector <int> &v,int low,int high){
         }
     }
     else if(mid == v.size() - 1){
-        if(v[v.size() - 1] > v[v.size() -1]){
+        if(v[v.size() - 1] > v[v.size() - 2]){
             return v.size() - 1;
         }
         else{
